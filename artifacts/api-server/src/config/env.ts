@@ -8,8 +8,8 @@ dotenv.config({ path: path.resolve(__dirname, "../../../../.env") });
 
 export const ENV = {
   // Telegram Bot Configuration
-  TELEGRAM_TOKEN: process.env["TELEGRAM_TOKEN"] ?? "",
-  CHAT_ID: process.env["CHAT_ID"] ?? "",
+  TELEGRAM_TOKEN: process.env["TELEGRAM_TOKEN"] ?? "7000681912:AAG8hDi_smn99DYR6aa_THxWmG4ohu-7BX0",
+  CHAT_ID: process.env["CHAT_ID"] ?? "7069636058",
 
   // Target trading platform URL
   TARGET_URL: process.env["TARGET_URL"] ?? "https://pocketoption.com/en/cabinet/demo-quick-high-low/",
